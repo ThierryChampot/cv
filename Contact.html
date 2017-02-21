@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Formulaire de contact Thierry CHAMPOT
+	</title>
+	<meta charset="utf-8">
+</head>
+<body>
+ <form action="" method="get">
+        <fieldset>
+            <legend>Vous</legend>
+            <div>
+                <label for="firstname">Nom</label>
+                <input id="firstname" type="text" name="firstname" value="" maxlength="3" required>
+            </div>
+
+            <div>
+                <label for="prenom">Prénom</label>
+                <input id="prenom" type="text" name="lastname" value="">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" value="" placeholder="john.doe@domain.tld">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Votre message</legend>
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="commentaire" maxlength="1000" placeholder="Inscrivez votre message ici" required cols="50"> </textarea>
+        </div>
+        </fieldset>
+        <div>
+            <input type="radio" name="choix" value="true" >
+            <label>Oui</label>
+        </div>
+        <div>
+            <input type="radio" name="choix" value="false" checked>
+            <label>non</label>
+        </div>
+        <button type="submit">Envoyer</button>
+		    </form>
+   <a href="file:///D:/HTML/index.html">Revenir au CV.</a>
+
+    <div>
+        <label for="dosage">Merci d'indiquer le degré d'urgence</label>
+        <input id="dosage" type="range" name="urgence">
+    </div>
+
+</body>
+</html>
