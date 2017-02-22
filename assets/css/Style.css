@@ -1,3 +1,9 @@
+img {
+	width:180px;
+	margin:0px;
+	}
+
+/*
 body
 {
 	font-family: "Arial Black",Arial, Verdana;
@@ -54,7 +60,7 @@ nav ul li a:hover
 }
 .lien a:hover {	text-decoration: underline;}
 
-img {	margin:0px;	}
+
 
 .clear {clear: both;}
 
@@ -90,3 +96,4 @@ dd{
 #cookies.hide{
 	display: none;
 }
+*/
