@@ -1,7 +1,3 @@
-img {
-	width:180px;
-	margin:0px;
-	}
 
 /*
 body
@@ -9,17 +5,10 @@ body
 	font-family: "Arial Black",Arial, Verdana;
 	font-size: normal;
 	background-color: ghostwhite;
-}
-.chapter{
-	display: inline-block;
-}
-.Left{
-	display: inline-block;
-	width: 300px;
-}
-.Right{
-		display: inline-block;
-}
+img {
+	width:180px;
+	margin:0px;
+	}
 h1{
 	background-color: lemonchiffon;
 	min-height: 40px;
